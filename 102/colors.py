@@ -20,5 +20,3 @@ def print_colors():
         else:
             print(color)
 
-
-print_colors()
