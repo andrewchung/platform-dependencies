@@ -9,15 +9,16 @@ def print_colors():
        - otherwise print the color in lower case."""
 
     while True:
-        color = input('Enter a color: ').lower()
-        if color == 'quit':
+        color = input('Enter a color: ')
+        color_lower = color.lower()
+        if color_lower == 'quit':
             print('bye')
             break
-        if color not in VALID_COLORS:
+        if color_lower not in VALID_COLORS:
             print('Not a valid color')
             continue
         else:
-            print(color)
+            print(color_lower)
 
 
 print_colors()
