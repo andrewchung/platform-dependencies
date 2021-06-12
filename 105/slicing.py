@@ -26,5 +26,5 @@ def slice_and_dice(text: str = text) -> list:
         if line[0] in ascii_lowercase:
             last_word = line.split()[-1].rstrip('.!')
             results.append(last_word)
+            
     return(results)
-
