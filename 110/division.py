@@ -14,3 +14,5 @@ def divide_numbers(numerator, denominator):
         return(numerator / denominator)
     except ZeroDivisionError:
         return(0)
+
+# a little verbose -- could have consolidated a few statements together
