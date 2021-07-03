@@ -33,4 +33,3 @@ def sort_car_models(cars=cars):
     """return a copy of the cars dict with the car models (values)
        sorted alphabetically"""
     return({k:sorted(v) for (k,v) in cars.items()})
-
