@@ -3,6 +3,8 @@ import string
 VOWELS = 'aeiou'
 PYTHON = 'python'
 
+""" Can also use regex to solve """
+
 
 def contains_only_vowels(input_str):
     """Receives input string and checks if all chars are
