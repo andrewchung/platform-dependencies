@@ -30,6 +30,3 @@ def contains_digits(input_str):
     for char in input_str:
         if char in string.digits:
             return(True)
-
-
-contains_only_vowels('aeio123')
