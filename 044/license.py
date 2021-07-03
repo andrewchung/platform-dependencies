@@ -10,3 +10,4 @@ def gen_key(parts=4, chars_per_part=8):
     for i in range(parts):
         key += ''.join(secrets.choice(chars) for i in range(chars_per_part)) + '-'
     return(key[0:-1])
+
